@@ -1,0 +1,87 @@
+/* src/App.css */
+.App {
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  margin-top: 5px;
+  z-index: 2;
+  color: white;
+}
+
+#tsparticles{
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+}
+.content{
+  z-index: 2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width:100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+#Home{
+  width: 100%;
+}
+#About{
+  width: 100%;
+  
+}
+#Contact{
+  width: 100%;
+
+}
+#Skills{
+  width: 100%;
+
+}
+#Projects{
+  width: 100%;
+}
+
+  
+  .nav-link:active{
+    border-bottom: 2px solid white;
+  }
+.nav-link:active{
+  background: #000;
+  color: white;
+}
+.cursive-sign{
+  font-family:cursive;
+}
+.profile-text{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+h2, h1, h4, p, button {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  
+}
+.list-item{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.203);
+  font-size: medium;
+}
+.typing-effect{
+  color:white;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+}
+button a{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
